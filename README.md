@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rafayel — Digital Workshop & Product Lab
 
-## Getting Started
+> **"I build digital products, not just websites."**
 
-First, run the development server:
+Personal portfolio website and digital product lab for **Rafayel** — Full Stack & React Native Developer based in Bangladesh, working with clients worldwide.
+
+---
+
+## Architecture & Technology
+
+* **Framework:** Next.js 16 (App Router)
+* **Language:** TypeScript (Strict)
+* **Styling:** Tailwind CSS v4 with custom design tokens
+* **Iconography:** Lucide Icons & Custom SVGs
+* **Motion & Interactions:** Purposeful micro-animations & Command Palette (`⌘K` / `Ctrl+K`)
+* **Typography:** Geist Sans & Geist Mono (Vercel Fonts)
+* **Production Optimizations:** Core Web Vitals tuned, Zero-layout-shift image handling, Dynamic XML Sitemap & Robots
+
+---
+
+## Featured Work & Case Studies
+
+* **BESTKID** — Kids Fashion E-Commerce (React Router 7, Tailwind, REST API)
+* **Panto Furniture** — Modern Interior & Furniture Platform (Next.js, React, Tailwind)
+* **Sokher Baksho** — Lifestyle & Artisan Marketplace (Node.js, Express, MongoDB, React)
+* **Eclipse Denim** — Technical Apparel & Raw Denim Platform (Next.js, TypeScript, REST)
+
+---
+
+## Sections
+
+1. **Navigation** — Lightweight scroll-reactive header with mobile drawer & `⌘K` trigger
+2. **Hero** — Split editorial layout with active telemetry system status panel & portrait integration
+3. **What I Build (Capabilities)** — Web, Mobile, Systems, and Automation specification breakdown
+4. **Selected Work** — Editorial showcase with deep-dive 7-stage case study modal viewer
+5. **Behind The Build** — Interactive 8-stage engineering delivery pipeline
+6. **Automation Lab (Things I've Automated)** — Background daemons, Telegram bots, and event-driven workflows
+7. **Developer Workbench** — Verified technical stack (Frontend, Backend, Database, Mobile, Tools)
+8. **Rafayel Command Center** — Studio telemetry, UTC+6 local clock, and worldwide availability indicator
+9. **How I Work** — 6-step disciplined execution methodology
+10. **About Me** — Product engineering philosophy and background
+11. **Start a Project** — Structured scope inquiry form and direct email channel
+12. **Footer** — Global credits and return-to-top telemetry
+
+---
+
+## Local Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Run linting check
+npm run lint
+
+# Production build
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT © Rafayel
